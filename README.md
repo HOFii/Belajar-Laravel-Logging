@@ -2,7 +2,15 @@
 
 ## POINT UTAMA
 
-### 1. Logging Channel
+### 1. Instalasi
+
+-   Minimal PHP versi 8 atau lebih,
+
+-   Composer sersi 2 atau lebih,
+
+-   Lalu pada cmd ketikan `composer create-project laravel/laravel=v9.1.10 belajar-laravel-logging`.
+
+### 2. Logging Channel
 
 1. Default channel milik `Laravel`.
 
@@ -71,7 +79,7 @@
 
 ---
 
-### 2. Log Facade
+### 3. Log Facade
 
 -   Kita bisa menggunakan `Log facade` untuk melakukan logging di `laravel`.
 
@@ -96,7 +104,7 @@
 
 ---
 
-### 3. Multiple Log Channel
+### 4. Multiple Log Channel
 
 -   Untuk membuat _log_ ke `slack`, kita perlu membuat URL terlebih dahulu. Di directory `config/logging.php`
 
@@ -126,7 +134,7 @@
 
 ---
 
-### 4. Context
+### 5. Context
 
 -   `Log facade` memiliki parameter kedua setelah message yang bisa diisi dengan data `context`. Mirip seperti PHP logging.
 
@@ -161,7 +169,7 @@
 
 ---
 
-### 5. Selected Channel
+### 6. Selected Channel
 
 -   Kode selected channel
 
@@ -178,7 +186,7 @@
 
 ---
 
-### 6. Handler
+### 7. Handler
 
 -   Kode Handler
 
@@ -197,7 +205,7 @@
 
 ---
 
-### 7. Formatter
+### 8. Formatter
 
 -   Di `laravel` kita bisa menggunakan `config formatter` dengan berisi _class_ `formatter`.
 
@@ -220,8 +228,6 @@
 ## PERTANYAAN & CATATAN TAMBAHAN
 
 -
-
----
 
 ### KESIMPULAN
 
