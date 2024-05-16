@@ -6,7 +6,7 @@
 
 -   Minimal PHP versi 8 atau lebih,
 
--   Composer sersi 2 atau lebih,
+-   Composer versi 2 atau lebih,
 
 -   Lalu pada cmd ketikan `composer create-project laravel/laravel=v9.1.10 belajar-laravel-logging`.
 
