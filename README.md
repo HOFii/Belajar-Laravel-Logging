@@ -227,7 +227,7 @@
 
 ## PERTANYAAN & CATATAN TAMBAHAN
 
--
+- Laravel, logging berfungsi untuk merekam kejadian atau informasi penting yang terjadi dalam aplikasi Anda. Ini penting untuk memantau kinerja aplikasi, mengidentifikasi masalah, dan melacak aktivitas pengguna.
 
 ### KESIMPULAN
 
